@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="body">
+        <h3 id="head">To Do List</h3>
+        <div id="inside">
+           <span> <input  id="input"  placeholder="Item name"type="text" />
+            <button id="btn"><image id="img1" src="https://th.bing.com/th?id=OIP.xdtC3RS8bdiYscJE1fgtlQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" />Add Items</button></span>
+        </div>
+        
+        <div id="insider">
+            <ol id="ulist">
+              
+                
+            </ol>
+        </div>
+        <div id="clearer">
+        <button id="clear">Clear items</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

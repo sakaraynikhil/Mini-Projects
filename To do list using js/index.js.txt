@@ -1,0 +1,18 @@
+let btn = document.getElementById("btn");
+let inputuser = document.getElementById("input");
+let ulist = document.getElementById("ulist");
+let clear = document.getElementById("clear");
+
+btn.addEventListener("click",function(){
+    let input = inputuser.value;
+    ulist.innerHTML += `<div id="ent"><li>` + input + `</li></div><br>`;
+   inputuser.value =" ";
+})
+
+clear.addEventListener("click",function(){
+    ulist.innerHTML=" ";
+})
+
+ulist.addEventListener("dblclick",function(){
+    ulist.textContent=" ";
+})

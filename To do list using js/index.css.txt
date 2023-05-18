@@ -1,0 +1,85 @@
+#head{
+    color:black;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    
+}
+
+#body{
+    background-image:url("https://th.bing.com/th?id=OIP.fcnnQTKvE97mVjEQGOI1ZAHaF7&w=279&h=223&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#inside{
+    text-align: center;
+    
+}
+#input{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:200px;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    height:40px;
+    position:relative;
+    box-shadow:0 2px 2px 0 black;
+    
+}
+
+#btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:40px;
+    border-radius:10px;
+    border:none;
+    box-shadow:0 2px 2px 0 black;
+     cursor:pointer;
+    
+
+}
+
+#insider{
+    align-content: center;
+    border:2px solid black;
+    height:200px;
+    width:300px;
+    
+    border-radius:15px;
+    background-color:whitesmoke;
+    margin-top:10px;
+    border:none;
+    box-shadow:0 2px 2px 0 black;
+    text-align: center;
+    text-align: center;
+    margin-left:40%;
+    margin-right:50%;
+    
+}
+#ulist{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:30px;
+    
+    text-align: left;
+    
+}
+
+#img1{
+    width:20px;
+    height:20px;
+    justify-content: center;
+    
+}
+#clearer{
+    text-align: center;
+    margin-top:10px;
+    
+}
+#clear{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:40px;
+    border-radius:10px;
+    border:none;
+    box-shadow:0 2px 2px 0 black;
+    cursor:pointer;
+}
