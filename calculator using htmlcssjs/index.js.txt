@@ -1,0 +1,15 @@
+const userinput = document.getElementById("input");
+var expression =' ';
+
+function press(num){
+    expression+= num;
+    userinput.value = expression;
+}
+function equals(){
+    userinput.value = eval(expression);
+    expression =" ";
+}
+function clear(){
+    expression =" ";
+    userinput.value = expression;
+}

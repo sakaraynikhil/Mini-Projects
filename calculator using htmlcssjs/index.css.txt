@@ -1,0 +1,59 @@
+#body{
+    
+    background-color:rgb(77, 77, 77);
+    overflow:hidden;
+}
+#head{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    
+    
+}
+#container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:20%;
+}
+
+#insider{
+    border:2px solid rgb(115, 115, 115);
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:50px;
+    
+}
+#input{
+    text-align:right;
+    width:98%;
+    height:40px;
+    border-radius:5px;
+    outline:none;
+    
+}
+#btn{
+    width:23%;
+    height:35px;
+    margin-top:8px;
+    outline:none;
+    box-shadow:0 2px 1px 0 rgb(191, 191, 191);
+    transition:0.5s;
+    
+}
+#equal{
+    width:98%;
+    height:35px;
+    margin-top:8px;
+    transition:0.5s;
+    border-radius:12px;
+    outline:none;
+    border:none;
+}
+#btn:hover{
+    color:whitesmoke;
+    background-color:rgb(140, 140, 140);
+    outline:none;
+    border:none;
+    
+}
