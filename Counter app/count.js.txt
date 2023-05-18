@@ -1,0 +1,18 @@
+let countinner = document.getElementById("countvalue");
+let incre = document.getElementById("incre");
+let decre= document.getElementById("decre");
+let refresh = document.getElementById("ref");
+let count=0;
+incre.addEventListener("click",function(){
+    count+=1;
+    countinner.textContent = "COUNT VALUE:" + count;
+})
+
+decre.addEventListener("click",function(){
+    count-=1;
+    countinner.textContent = "COUNT VALUE:" + count;
+})
+
+ref.addEventListener("click",function(){
+    countinner.textContent = "COUNT VALUE:"
+})
