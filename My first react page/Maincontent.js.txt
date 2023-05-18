@@ -1,0 +1,17 @@
+import React from "react";
+
+
+export default function Maincontent(){
+    return(
+        <div>
+            <h2 className="head2">Fun Fact's About React</h2>
+            <ul className="ulist2">
+                <li>It's easy to learn.</li>
+                <li>it was developed by meta.</li>
+                <li>It's is declarative.</li>
+                <li>Powers thousands of enterprise apps and many 
+                mobile applicatione.</li>
+            </ul>
+        </div>
+    )
+}

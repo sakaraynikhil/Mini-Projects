@@ -1,0 +1,65 @@
+.img{
+    width:100px;
+    height:80px;
+    justify-content: center;
+    
+    
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.ulist{
+    display:flex;
+    list-style: none;
+    margin-top:28px;
+
+    
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(51, 51, 51);
+    
+}
+ul li{
+    margin-left:15px;
+    color:whitesmoke;
+    margin-bottom: 10px;
+}
+.head{
+    color:skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.2em;
+    font-weight:bold;
+    margin-top:28px;
+    
+}
+.ulist2{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    font-weight:bold;
+}
+.head2{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.2em;
+    font-weight:100;
+}
+#body{
+    background-image:url("https://th.bing.com/th/id/OIP.XMJOqsxF3JuXexojdz01FQHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    
+}
+.ulist2>li{
+    margin-top:25px;
+}
+.ulist2>li::marker{
+    color:skyblue;
+    font-size:1.2rem;
+}

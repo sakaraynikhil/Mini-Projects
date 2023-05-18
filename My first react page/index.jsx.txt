@@ -1,0 +1,15 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./Header";
+import Maincontent from "./Maincontent";
+
+function App() {
+  return (
+    <div>
+    <Header/>
+    <Maincontent />
+    </div>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />); 
