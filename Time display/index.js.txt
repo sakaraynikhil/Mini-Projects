@@ -1,0 +1,15 @@
+
+window.addEventListener("load",timecalculation());
+function timecalculation(){
+    var date = new Date();
+    var day = date.getDay();
+    var hour = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hour>12 ? "PM" : "AM";
+    var days = ["suns","Mons","Tues","Thurs","Fris","Sats"];
+    document.getElementById("day").innerHTML = days[day];
+     document.getElementById("hour").innerHTML = hour;
+      document.getElementById("minutes").innerHTML = minutes;
+     document.getElementById("ampm").innerHTML = ampm;
+    
+}
