@@ -1,0 +1,72 @@
+#head{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    justify-content: center;
+    margin-top:12px;
+    color:whitesmoke;
+    
+    
+    
+
+    
+}
+#header{
+    background-color:rgb(51, 51, 51);
+    height:45px;
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0 2px 0 0 rgb(102, 102, 102);
+    
+   
+    
+}
+#img{
+    width:65px;    
+}
+#container{
+    text-align:center;
+    margin-top:15%;
+    border:2px solid grey;
+    margin-left:15%;
+    margin-right:15%;
+    padding:30px;
+    border-radius:12px;
+    color:whitesmoke;
+    background-image:url("https://th.bing.com/th/id/OIP.SnEHVq-KgPP03Q0rIfyPAwHaGL?pid=ImgDet&w=207&h=172&c=7&dpr=1.3");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#body{
+    background-color:rgb(64, 64, 64);
+    overflow:hidden;
+    outline:none;
+}
+#input{
+    margin-bottom:12px;
+    border-radius:8px;
+    padding:10px;
+    
+}
+#form{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+#pass{
+    margin-bottom:12px;
+    border-radius:8px;
+     padding:10px;
+    
+    
+}
+#btn{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    padding:12px;
+    border-radius:12px;
+    
+}

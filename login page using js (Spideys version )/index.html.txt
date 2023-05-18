@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="body">
+        <div id="header">
+        <img id="img" src="https://th.bing.com/th/id/OIP.nlDZxnlt81vRQzAOBFq0XQHaEo?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" /><h3 id="head">Login Page</h3>
+        </div>
+        <div id="container">
+        <div>
+            <form id="form">
+                <label id="label" for id="input">Username</label></br>
+                <input type="text" id="input"/>
+            </form>
+        </div>
+        <div>
+            <form id="form">
+                <label id="label" for id="pass">Password</label></br>
+                <input type="password" id="pass"/>
+            </form>
+        </div>
+        <button id="btn">SUBMIT!</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
