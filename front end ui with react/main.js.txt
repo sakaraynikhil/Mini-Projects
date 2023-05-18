@@ -1,0 +1,95 @@
+import React from "react"
+
+
+export default function Main(){
+    
+    const [data,setdata] = React.useState({
+        firstname:"",
+        lastname:"",
+        email:"",
+        confemail:"",
+        password:"",
+        ischecked:true
+    });
+    
+    
+    
+    function Changing(event){
+        const {name,value,type,checked} = event.target;
+        setdata(predata=>{
+            return{
+                ...predata,
+                [name]:type==="checkbox" ? checked : value
+            }
+        })
+    }
+    
+    
+    function Submission(event){
+       event.preventDefault();
+       if(data.email===data.confemail){
+           console.log("Thanks for signing in");
+       }else{
+           console.log("Different Mail id's can't be accepted");
+       }
+       
+       if(data.ischecked){
+           console.log("thanks for joining us!");
+       }
+    }
+    
+    
+    
+    
+    return(
+        <section id="section">
+        <div className="outsider">
+        <div className="insider">
+            <form onSubmit={Submission}>
+                <input id="input" type="text"
+                placeholder="firstName"
+                onChange={Changing}
+                name="firstname"
+                value={data.firstname}
+                
+                /><br/>
+                <input id="input" type="text"
+                placeholder="Lastname"
+                onChange={Changing}
+                 name="lastname"
+                  value={data.lastname}
+                /><br/>
+                <input id="input" type="email"
+                placeholder="email"
+                onChange={Changing}
+                 name="email"
+                  value={data.email}
+                /><br/>
+                <input id="input" type="email"
+                placeholder="confirm email"
+                onChange={Changing}
+                 name="confemail"
+                  value={data.confemail}
+                /><br/>
+                 <input id="input" type="password"
+                placeholder="password"
+                onChange={Changing}
+                 name="password"
+                  value={data.password}
+                /><br/>
+                <input type="checkbox"
+                id="ischecked"
+                onChange={Changing}
+                checked={data.ischecked}
+                name="ischecked"
+                />
+                <label htmlFor="ischecked">Will you Join with
+                us!</label><br/>
+                <button id="btn">Sign-in!</button>
+                
+            </form>
+        </div>
+        </div>
+        </section>
+    )
+}
